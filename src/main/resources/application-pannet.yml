@@ -1,0 +1,12 @@
+logging:
+    file: phenom-service.log
+server:
+    port: 10001
+serviceUrl: http://10.10.222.103:8093/techm/designer/platformController
+spring:
+    data:
+        mongodb:
+            uri: mongodb://172.29.1.114:27017/DTagService
+    jackson:
+        serialization:
+            FAIL_ON_EMPTY_BEANS: false
